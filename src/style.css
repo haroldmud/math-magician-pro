@@ -14,7 +14,6 @@ body {
 .result {
   position: relative;
   padding: 20px;
-	/* background-color: dimgray; */
 	border-bottom:rgba(100, 88, 88, 0.466) solid 5px ;
 }
 
