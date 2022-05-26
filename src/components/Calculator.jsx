@@ -1,27 +1,16 @@
-import React, { Component } from 'react';
+import React, { useEffect, useState } from 'react';
 import calculate from '../logic/calculate';
 
-class Calcul extends Component {
-	constructor(props) {
-		super(props);
-		this.state = { total: null, next: null, operation: null };
-	  }
+function Calcul () {
+
+		const [state, setState]= useState({ total: null, next: null, operation: null });
 	
-	  componentDidMount = () => {
-		this.setState({
-		  total: null,
-		  next: null,
-		  opreration: null,
-		});
-	  };
-	
-	  render() {
 		const dropCalc = (e) => {
-		  const myObj = calculate(this.state, e.target.textContent);
-		  this.setState(myObj);
+		  const myObj = calculate(state, e.target.textContent);
+		  setState(myObj);
 		};
 	
-		const { next, operation, total } = this.state;
+		const { next, operation, total } = state;
 		const op = operation === "%" ? "mod" : operation;
 		let result = "";
 		if (total) {
@@ -30,7 +19,7 @@ class Calcul extends Component {
 		  result = `${next} ${op || ""}`;
 		}
 
-    // render() { 
+    
         return (
             <React.Fragment>
 							<section className='table'>
@@ -59,7 +48,6 @@ class Calcul extends Component {
 							</section>
             </React.Fragment>
         );
-    }
 }
  
 export default Calcul;
