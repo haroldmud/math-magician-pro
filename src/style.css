@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.table {
+  width: 20rem;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 7rem;
+  border: rgba(100, 88, 88, 0.466) solid 4px;
+}
+
+.result {
+  position: relative;
+  padding: 20px;
+  border-bottom: rgba(100, 88, 88, 0.466) solid 5px;
+}
+
+.result span {
+  position: absolute;
+  right: 5px;
+  top: 12px;
+}
+
+.operations {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: rgba(100, 88, 88, 0.466);
+  gap: 5px;
+}
+
+.operations div {
+  padding: 20px;
+  background-color: rgb(177, 206, 206);
+}
+
+.spans {
+  grid-column: 1/3;
+}
+
+.operations .sign {
+  background-color: burlywood;
+}
