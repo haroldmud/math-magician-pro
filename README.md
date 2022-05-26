@@ -27,8 +27,9 @@
 
 ### Setup
 
-- git clone \<first https://github.com/haroldmud/ES6-module.git>
-- cd \<first ES6-modules>
+
+- git clone \<first https://github.com/haroldmud/math-magician-pro.git>
+- cd \<first math-magician-pro>
 
 ### Install
 
@@ -67,4 +68,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
+
 This project is [MIT](./MIT.md) licensed.
+
