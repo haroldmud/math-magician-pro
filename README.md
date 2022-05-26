@@ -27,6 +27,7 @@
 
 ### Setup
 
+
 - git clone \<first https://github.com/haroldmud/math-magician-pro.git>
 - cd \<first math-magician-pro>
 
@@ -67,4 +68,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
+
 This project is [MIT](./MIT.md) licensed.
+
