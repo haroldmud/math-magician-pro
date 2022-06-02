@@ -1,22 +1,22 @@
 header {
-    position: relative;
+  position: relative;
 }
 
 header h1 {
-    font-size: 3.5rem;
+  font-size: 3.5rem;
 }
 
 header nav {
-    position: absolute;
-    width: 15rem;
-    top: 3rem;
-    right: 8rem;
+  position: absolute;
+  width: 15rem;
+  top: 3rem;
+  right: 8rem;
 }
 
 header nav a {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
 }

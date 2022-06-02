@@ -5,7 +5,7 @@
       "at-rule-no-unknown": [
         true,
         {
-          "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen", "identation", "no-missing-end-of-source-newline"]
+          "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen"]
         }
       ],
       "scss/at-rule-no-unknown":  [
