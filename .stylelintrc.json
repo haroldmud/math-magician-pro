@@ -5,7 +5,7 @@
       "at-rule-no-unknown": [
         true,
         {
-          "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen"]
+          "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen", "identation", "no-missing-end-of-source-newline"]
         }
       ],
       "scss/at-rule-no-unknown":  [
@@ -17,4 +17,4 @@
       "csstree/validator": true
     },
     "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css", "**/*.js", "**/*.jsx"]
-  }
+  } 
