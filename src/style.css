@@ -3,11 +3,19 @@ body {
   padding: 0;
 }
 
+section {
+  position: relative;
+}
+
+section h2 {
+  padding-left: 12rem;
+}
+
 .table {
+  position: absolute;
   width: 20rem;
-  justify-content: center;
-  margin: 0 auto;
-  margin-top: 7rem;
+  right: 15rem;
+  top: 7rem;
   border: rgba(100, 88, 88, 0.466) solid 4px;
 }
 
