@@ -1,8 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project name
-
->  Math magician project built with react
+# Math magician project built with react
 
 ## Built With
 
