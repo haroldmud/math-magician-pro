@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import calculate from '../logic/calculate';
+import calculate from './logic/calculate';
 import Header from './Header';
 
 const Calcul = () => {
