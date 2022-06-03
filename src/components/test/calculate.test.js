@@ -12,7 +12,6 @@ const test2 = {
   operation: null,
 };
 
-console.log(calculate(test1, '÷'));
 const ACresponse = {
   total: null,
   next: null,
@@ -49,6 +48,12 @@ const QUOTIENTresponse = {
   operation: '÷',
 };
 
+const PRODresponse = { 
+  total: '7500',
+  next: null, 
+  operation: 'x' 
+}
+
 describe('test calculate', () => {
   it('test AC', () => {
     expect(calculate(test1, 'AC')).toStrictEqual(ACresponse);
@@ -68,4 +73,7 @@ describe('test calculate', () => {
   it('test ÷', () => {
     expect(calculate(test1, '÷')).toStrictEqual(QUOTIENTresponse);
   });
+  it('test x', () => {
+    expect(calculate(test1, 'x')).toStrictEqual(PRODresponse);
+  })
 });
