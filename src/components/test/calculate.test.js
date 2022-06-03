@@ -48,11 +48,11 @@ const QUOTIENTresponse = {
   operation: '÷',
 };
 
-const PRODresponse = { 
+const PRODresponse = {
   total: '7500',
-  next: null, 
-  operation: 'x' 
-}
+  next: null,
+  operation: 'x',
+};
 
 describe('test calculate', () => {
   it('test AC', () => {
@@ -75,5 +75,5 @@ describe('test calculate', () => {
   });
   it('test x', () => {
     expect(calculate(test1, 'x')).toStrictEqual(PRODresponse);
-  })
+  });
 });
