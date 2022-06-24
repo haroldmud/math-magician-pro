@@ -9,9 +9,9 @@
 - Github actions
 
 
-<!-- ## Live Demo (if available) -->
+## Live Demo
 
-<!-- [Live Demo Link](https://livedemo.com) -->
+[Live Demo Link](https://haroldmud.github.io/math-magician-pro/)
 
 ## Getting Started
 
